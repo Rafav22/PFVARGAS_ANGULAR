@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Rafael",
+      "apellido": "Vargas",
+      "email": "rafa@mail.com",
+      "password": "123456",
+      "token": "hjsdfJHFDSAFMsaDsan12sdanjjadashj3FDBEWH",
+      "role": "admin"
+    },
+    {
+      "nombre": "Maria",
+      "apellido": "Gutierrez",
+      "email": "maria@email.com",
+      "password": "123456",
+      "token": "nmdsgfjhuMDKSAFJASDK327SJDKANjsadnsah",
+      "role": "user",
+      "id": 4
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "subjectId": 1,
+      "fecha_fin": "2023-04-27T01:27:59.631Z",
+      "fecha_inicio": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 2,
+      "subjectId": 2,
+      "fecha_fin": "2023-04-27T01:27:59.631Z",
+      "fecha_inicio": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 3,
+      "subjectId": 2,
+      "fecha_fin": "2023-04-27T01:27:59.631Z",
+      "fecha_inicio": "2023-04-27T01:27:59.631Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "nombre": "Angular",
+      "description": "Curso de Angular con duración de 2 meses."
+    },
+    {
+      "id": 2,
+      "nombre": "Desarrollo Web"
+    },
+    {
+      "id": 3,
+      "nombre": "Desarrollo Javascript"
+    }
+  ],
+  "inscriptions": [
+    {
+      "id": 2,
+      "subjectId": 2,
+      "studentId": 1,
+      "courseId": 2
+    },
+    {
+      "subjectId": 1,
+      "studentId": 3,
+      "courseId": 1,
+      "id": 3
+    },
+    {
+      "subjectId": 1,
+      "studentId": 3,
+      "courseId": 1,
+      "id": 4
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1,
+      "courseId": 2,
+      "id": 5
+    }
+  ],
+  "students": [
+    {
+      "id": 3,
+      "nombre": "Antonio",
+      "apellido": "Alvarez",
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    },
+    {
+      "id": 1,
+      "nombre": "Jose",
+      "apellido": "Flores",
+      "fecha_registro": "2023-04-27T01:27:59.631Z"
+    }
+  ]
+}
